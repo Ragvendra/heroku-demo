@@ -20,7 +20,7 @@ const mimeTypes = {
 function getFilename(req) {
     if (req.url === '/') return 'index.html';
     return req.url;
-}
+}  
 
 http.createServer((request, response) => {
     if (request.method === 'GET') {
