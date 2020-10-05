@@ -7,7 +7,7 @@ function status404(response) {
     response.writeHead(404, {'Content-Type': 'text/html'});
     response.write('<h1>404 Not Found</h1>');
     response.end();
-}
+} 
 
 const mimeTypes = {
     '.html': 'text/html',
